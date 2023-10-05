@@ -2,7 +2,7 @@ on: create
 
 jobs:
   up:
-    if: ${{ contains(github.ref, 'refs/heads/feature/') }}
+    if: ${{ contains(github.ref, 'refs/heads/feature') }}
     name: Deploy PR to ephemeral environment
     runs-on: ubuntu-latest
     permissions:
