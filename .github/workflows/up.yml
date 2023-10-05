@@ -1,4 +1,4 @@
-on: create
+on: [create, push]
 
 jobs:
   up:
